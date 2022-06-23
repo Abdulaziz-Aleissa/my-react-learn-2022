@@ -1,0 +1,7 @@
+to change any title we have to import useState from react: ( import React, { useState } from "react"; )
+then we going to define it inside our function, above the return ( const [title, setTitle] = useState(props.title); )
+--------------------------------------------------
+to store input from user we assign event to the fuction of onClick or onChange (  const titleChangeHandler = (event) => { )
+then we use event.target.value
+---------------------------------------------------
+we can use event.preventDefault(); to prevent the form to be sent
